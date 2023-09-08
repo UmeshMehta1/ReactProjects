@@ -1,0 +1,45 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  background-color: gray;
+}
+
+.container{
+  margin-top: 10%;
+  width: 40%;
+  border-radius: 10px;
+}
+
+img{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin: 8px 15px 2px 0px;
+}
+
+.man{
+  display: flex;
+
+}
+
+.name h3{
+  font-size: large ;
+  margin-top: 15px;
+}
+
+button{
+  width: 100%;
+  background-color: red;
+  color: white;
+  padding: 5px 2px;
+  font-size: larger;
+  border-radius: 8px;
+}
+
+button:hover{
+  background-color:#FF69B4;
+}
